@@ -2,7 +2,7 @@
 
 BUILD_TAG ?= latest
 DOCKER_IMAGE_NAME = dylanfoster/node-build
-DOCKER_IMAGE_TAGS = 5.11.0 5.11 5 latest
+DOCKER_IMAGE_TAGS = 6.11.0 6.11 6 latest
 
 all: build test tag
 
